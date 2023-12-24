@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "114667885141",
+    "project_id": "thuvien-cf5e5",
+    "storage_bucket": "thuvien-cf5e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114667885141:android:f4d4e9f0a9430b3695badc",
+        "android_client_info": {
+          "package_name": "com.example.thu_vien_sach"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114667885141-37dkkjjm2fnf2jmmjfrvdq9uj06r5j6e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thu_vien_sach",
+            "certificate_hash": "863a9470d8394954a4ab81ec14148b2ca641701d"
+          }
+        },
+        {
+          "client_id": "114667885141-qg9vk912ls3k41o100e3ad66crvaqga5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAApdWVv5CUdmS6dE59bw8vZrcfbcswhzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114667885141-62pd5c093vsls8ffc5bmp7tjs1i8dvfd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
