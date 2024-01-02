@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:thu_vien_sach/pages/auth/auth_provider.dart';
 import 'package:thu_vien_sach/utils/constant.dart';
+import 'package:thu_vien_sach/utils/google_check.dart';
 
 class AccountScreen extends StatelessWidget {
   const AccountScreen({Key? key}) : super(key: key);
@@ -122,13 +123,15 @@ class UserCard extends StatelessWidget {
               ],
             ),
             const SizedBox(
-              width: 16,
+              width: 20,
             ),
-            IconButton(
+          Flexible(
+            child: IconButton(
               onPressed: () {
                 Navigator.pushNamed(context, '/profile');
               },
               icon: const Icon(Icons.edit),
+            ),
             ),
           ],
         ),

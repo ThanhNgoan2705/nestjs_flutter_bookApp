@@ -77,6 +77,7 @@ Future<void> main(List<String> args) async {
         create: (_) => CommnetProvider(commentService, localService),
       ),
     ],
+
     child: MaterialApp(
       title: 'Thu Vien Sach', // used by the OS task switcher
       debugShowCheckedModeBanner: false,
@@ -131,3 +132,4 @@ Future<void> main(List<String> args) async {
     ),
   ));
 }
+

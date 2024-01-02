@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:thu_vien_sach/pages/auth/auth_provider.dart';
 import 'package:thu_vien_sach/utils/constant.dart';
+import 'package:thu_vien_sach/utils/google_check.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
